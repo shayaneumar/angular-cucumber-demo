@@ -10,7 +10,7 @@ Before(() => {
 });
 
 Given(/^I am on the home page$/, async () => {
-  await page.navigateTo();
+  await page.navigateTo('/');
 });
 
 When(/^I do nothing$/, () => {});
